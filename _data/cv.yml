@@ -1,97 +1,109 @@
-- title: General Information
+- title:
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Chenxi Whitehouse
+    - name: Software
+      value: Python (advanced), Objective-C, JavaScript
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD - Computer Science
+      institution: City, University of London, London, UK
+      year: 2020-now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Supervised by Dr. Pranava Madhyastha and Dr Tillman Weyde
+        - Research Topic on Natural Language Understanding and Generation, Knowledge Integration, Multimodal Learning
 
-- title: Experience
+    - title: MSc - Communications and Multimedia Engineering
+      institution: University of Erlangen–Nuremberg, Erlangen, Germany
+      year: 2015-2018
+      description:
+        - Supervised by Prof. Dr.-Ing. André Kaup
+        - Core Modules e.g. Statistical Signal Processing, Speech and Audio Processing, Image and Video Processing
+
+    - title: MSc Erasmus Exchange
+      institution: University College London, London, UK
+      year: 2016-2017
+      description:
+        - Distinction on all MSc modules taken in the Electronic and Electrical Engineering Department
+
+    - title: BSc - Information Engineering
+      institution: Xi’an Jiaotong University, Xi’an, China
+      year: 2011-2015
+      description:
+        - Core modules e.g. Advanced Mathematics, Data Structure and Algorithm, Pattern Recognition
+
+
+- title: WORK Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Scientist Intern
+      institution: Amazon Alexa AI, Cambridge, UK
+      year: 2022 - now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: Working as a research intern at the Alexa Knowledge team
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Working on web-scale information retrieval for question answering
+
+    - title: Research Scientist Intern
+      institution:  Huawei Noah Ark’s Lab, London, UK
+      year: 2021-2022
       description:
-        - Description 1.
-        - Description 2.
+        - title: Worked as a research intern at the NLP team of the Huawei Noah Ark’s Lab
+          contents:
+            - Integrate entity-level cross-lingual knowledge and use code-switching techniques to improve low resource language performance on various entity-centric tasks
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Machine Learning Engineer - Contractor
+      institution: Replicate.ai, Seattle, US
+      year: 2021-now
       description:
+        - title: Working as a remote machine learning engineer at Replicate.ai
+          contents:
+            - Improve the reproducible machine learning platform, where the research community can deploy and run models effortlessly and reproduce the work from publications
+            - Implement reproducible machine learning models on the platform from publications
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Software Engineer
+      institution: HP Inc UK Limited, London, UK
+      year: 2019-2020
+      description:
+        - Worked in the HP Reveal team, focused on delivering better solutions for HP Home Printing Systems with Augmented Reality experiences
 
-- title: Open Source Projects
+    - title: Computer Vision Engineer
+      institution: Inpixon, Berlin, Germany
+      year: 2018
+      description:
+        - Worked in the research & development team on mapping and navigation algorithms with Augmented Reality technologies. Developed iOS app for indoor navigation systems with SLAM.
+
+    - title: Computer Vision Engineer Intern
+      institution: Siemens AG, Nuremberg, Germany
+      year: 2017-2018
+      description:
+        - Worked in the machine learning and computer vision team at Siemens on industry use cases of Microsoft HoloLens
+
+
+- title: Machine Learning Summer Schools
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - year: 2022
+      items:
+        - LxMLS 2022, Lisbon Machine Learning School (with full Google Scholarship)
+    - year: 2022
+      items:
+        - OxML 2022, Oxford Machine Learning Summer School
+
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - year: 2020-2024
       items:
-        - Description 1.
-        - Description 2.
+        - PhD studentship, City, University of London
+    - year: 2017
+      items:
+        - Erasmus scholarship, University College London
+    - year: 2013-2015
+      items:
+        - Outstanding student scholarship, Xi’an Jiaotong University
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

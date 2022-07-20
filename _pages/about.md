@@ -1,25 +1,23 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_cicular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: me.jpg
+  image_cicular: true # crops the image to make it circular
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am Chenxi, a PhD student at the computer science department of [City, University of London](https://www.city.ac.uk/) supervised by Dr Tillman Weyde and [Dr Pranava Madhyastha](https://pmadhyastha.github.io/).
+I received my Bachelor's degree in Information Engineering at [Xi'an Jiaotong University](http://en.xjtu.edu.cn/), and my Master's 
+degree in Electrical Engineering at [University of Erlangen-Nürnberg](https://www.fau.eu/) and [University College London](https://www.ucl.ac.uk/).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My current research focuses on Natural Language Understanding and Generation, and Multimodal Learning with Knowledge and Reasoning.
+During my PhD I have worked as a research scientist intern at [Huawei Noah's Ark Lab](https://noahlab.com.hk/) in London, and now I am a research scientist
+intern at [Amazon Alexa AI](https://amazon.jobs/en-gb/landing_pages/Cambridge) in Cambridge.
