@@ -13,7 +13,7 @@
       institution: City, University of London, London, UK
       year: 2020-now
       description:
-        - Supervised by Dr. Pranava Madhyastha and Dr Tillman Weyde
+        - Supervised by Dr. Pranava Madhyastha and Dr. Tillman Weyde
         - Research Topic on Natural Language Understanding and Generation, Knowledge Integration, Multimodal Learning
 
     - title: MSc - Communications and Multimedia Engineering
@@ -53,22 +53,22 @@
       description:
         - title: Worked as a research intern at the NLP team of the Huawei Noah Ark’s Lab
           contents:
-            - Integrate entity-level cross-lingual knowledge and use code-switching techniques to improve low resource language performance on various entity-centric tasks
+            - Integrate entity-level cross-lingual knowledge and use code-switching techniques to improve low resource language performance on various entity-centric tasks.
 
     - title: Machine Learning Engineer - Contractor
-      institution: Replicate.ai, Seattle, US
+      institution: Replicate, Seattle, US
       year: 2021-now
       description:
-        - title: Working as a remote machine learning engineer at Replicate.ai
+        - title: Working as a machine learning engineer at Replicate
           contents:
-            - Improve the reproducible machine learning platform, where the research community can deploy and run models effortlessly and reproduce the work from publications
-            - Implement reproducible machine learning models on the platform from publications
+            - Improve the reproducible machine learning platform where the research community can deploy and run models effortlessly and reproduce the work from publications.
+            - Implement reproducible machine learning models on the platform from publications.
 
     - title: Software Engineer
       institution: HP Inc UK Limited, London, UK
       year: 2019-2020
       description:
-        - Worked in the HP Reveal team, focused on delivering better solutions for HP Home Printing Systems with Augmented Reality experiences
+        - Worked in the HP Reveal team, focused on delivering better solutions for HP Home Printing Systems with Augmented Reality experiences.
 
     - title: Computer Vision Engineer
       institution: Inpixon, Berlin, Germany
@@ -80,7 +80,7 @@
       institution: Siemens AG, Nuremberg, Germany
       year: 2017-2018
       description:
-        - Worked in the machine learning and computer vision team at Siemens on industry use cases of Microsoft HoloLens
+        - Worked in the machine learning and computer vision team at Siemens on industry use cases of Microsoft HoloLens.
 
 
 - title: Machine Learning Summer Schools
@@ -88,7 +88,7 @@
   contents:
     - year: 2022
       items:
-        - LxMLS 2022, Lisbon Machine Learning School (with full Google Scholarship)
+        - LxMLS 2022, Lisbon Machine Learning Summer School (with Google Scholarship)
     - year: 2022
       items:
         - OxML 2022, Oxford Machine Learning Summer School
@@ -100,7 +100,7 @@
     - year: 2020-2024
       items:
         - PhD studentship, City, University of London
-    - year: 2017
+    - year: 2016-2017
       items:
         - Erasmus scholarship, University College London
     - year: 2013-2015
