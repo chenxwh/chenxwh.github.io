@@ -1,19 +1,16 @@
 ---
 ---
 
-
-
 @inproceedings{whitehouse2022entitycs,
   title={EntityCS: Improving Zero-Shot Cross-lingual Transfer with Entity-Centric Code Switching},
   author={Chenxi Whitehouse and Fenia Christopoulou and Ignacio Iacobacci},
   booktitle={Findings of the Association for Computational Linguistics: EMNLP 2022},
   year={2022},
   abbr={EMNLP},
+  arxiv={2210.12540},
   code={https://github.com/huawei-noah/noah-research/tree/master/NLP/EntityCS},
-  abstract={Accurate alignment between languages is fundamental for improving cross-lingual pre-trained language models (XLMs). Motivated by the natural phenomenon of code-switching (CS) in multilingual speakers, CS has been used as an effective data augmentation method that offers language alignment at word- or phrase-level, in contrast to sentence-level via parallel instances. Existing approaches either use dictionaries or parallel sentences with word-alignment to generate CS data by randomly switching words in a sentence. However, such methods can be suboptimal as dictionaries disregard semantics, while syntax might become invalid after random word switching. In this work, we propose EntityCS, a method that focuses on Entity-level Code-Switching to capture fine-grained cross-lingual semantics without corrupting syntax. We use Wikidata and the English Wikipedia to construct an entity-centric CS corpus by switching entities to their counterparts in other languages. We further propose entity-oriented masking strategies during intermediate model training on the EntityCS corpus for improving entity prediction. Evaluation of the trained models on four entity-centric downstream tasks shows consistent improvements over the baseline with a notable increase of 10% in Fact Retrieval. We release the corpus and models to assist research on code-switching and enriching XLMs with external knowledge.},
+  abstract={Accurate alignment between languages is fundamental for improving cross-lingual pre-trained language models (XLMs). Motivated by the natural phenomenon of code-switching (CS) in multilingual speakers, CS has been used as an effective data augmentation method that offers language alignment at word- or phrase-level, in contrast to sentence-level via parallel instances. Existing approaches either use dictionaries or parallel sentences with word-alignment to generate CS data by randomly switching words in a sentence. However, such methods can be suboptimal as dictionaries disregard semantics, and syntax might become invalid after random word switching. In this work, we propose EntityCS, a method that focuses on Entity-level Code-Switching to capture fine-grained cross-lingual semantics without corrupting syntax. We use Wikidata and the English Wikipedia to construct an entity-centric CS corpus by switching entities to their counterparts in other languages. We further propose entity-oriented masking strategies during intermediate model training on the EntityCS corpus for improving entity prediction. Evaluation of the trained models on four entity-centric downstream tasks shows consistent improvements over the baseline with a notable increase of 10% in Fact Retrieval. We release the corpus and models to assist research on code-switching and enriching XLMs with external knowledge.}
 }
-
-
 
 @inproceedings{whitehouse2022evaluation,
   title={Evaluation of Fake News Detection with Knowledge-Enhanced Language Models},
@@ -28,6 +25,7 @@
   url={https://ojs.aaai.org/index.php/ICWSM/article/view/19400},
   pdf={https://ojs.aaai.org/index.php/ICWSM/article/view/19400/19172},
   slides={papers/fake_news_icwsm22/ICWSM_slides.pdf},
+  arxiv={2204.00458},
   abstract={Recent advances in fake news detection have exploited the success of large-scale pre-trained language models (PLMs). The predominant state-of-the-art approaches are based on fine-tuning PLMs on labelled fake news datasets. However, large-scale PLMs are generally not trained on structured factual data and hence may not possess priors that are grounded in factually accurate knowledge. The use of existing knowledge bases (KBs) with rich human-curated factual information has thus the potential to make fake news detection more effective and robust. In this paper, we investigate the impact of knowledge integration into PLMs for fake news detection. We study several state-of-the-art approaches for knowledge integration, mostly using Wikidata as KB, on two popular fake news datasets - LIAR, a politics-based dataset, and COVID-19, a dataset of messages posted on social media relating to the COVID-19 pandemic. Our experiments show that knowledge-enhanced models can significantly improve fake news detection on LIAR where the KB is relevant and up-to-date. The mixed results on COVID-19 highlight the reliance on stylistic features and the importance of domain specific and current KBs. The code is available at https://github.com/chenxwh/fake-news-detection.}
 }
 
