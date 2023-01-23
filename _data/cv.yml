@@ -43,15 +43,16 @@
       institution: Amazon Alexa AI, Cambridge, UK
       year: 2022 - now
       description:
-        - title: Working as a research intern at the Alexa Knowledge team
+        - title: Research intern at the Alexa Knowledge team
           contents:
-            - Working on web-scale information retrieval for question answering
+            - Worked on faithful and robust information extraction on the web
+            - Focused on generative information extraction
 
     - title: Research Scientist Intern
       institution:  Huawei Noah Ark’s Lab, London, UK
       year: 2021-2022
       description:
-        - title: Worked as a research intern at the NLP team of the Huawei Noah Ark’s Lab
+        - title: Research intern at the NLP team of the Huawei Noah Ark’s Lab
           contents:
             - Integrate entity-level cross-lingual knowledge and use code-switching techniques to improve low resource language performance on various entity-centric tasks.
 
@@ -59,7 +60,7 @@
       institution: Replicate, Seattle, US
       year: 2021-now
       description:
-        - title: Working as a machine learning engineer at Replicate
+        - title: Machine learning engineer at Replicate
           contents:
             - Improve the reproducible machine learning platform where the research community can deploy and run models effortlessly and reproduce the work from publications.
             - Implement reproducible machine learning models on the platform from publications.
