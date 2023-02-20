@@ -19,5 +19,4 @@ I received my Bachelor's degree in Information Engineering at [Xi'an Jiaotong Un
 degree in Electrical Engineering at [University of Erlangen-Nürnberg](https://www.fau.eu/) and [University College London](https://www.ucl.ac.uk/).
 
 My current research focuses on Natural Language Understanding and Generation, and Multimodal Learning with Knowledge and Reasoning.
-During my PhD I have worked as a research scientist intern at [Huawei Noah's Ark Lab](https://noahlab.com.hk/) in London, and now I am a research scientist
-intern at [Amazon Alexa AI](https://amazon.jobs/en-gb/landing_pages/Cambridge) in Cambridge.
+During my PhD I have worked as a research scientist intern at [Amazon Alexa AI](https://amazon.jobs/en-gb/landing_pages/Cambridge) in Cambridge, and [Huawei Noah's Ark Lab](https://noahlab.com.hk/) in London.
