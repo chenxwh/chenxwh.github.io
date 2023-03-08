@@ -39,9 +39,18 @@
 - title: WORK Experience
   type: time_table
   contents:
+    - title: Research Assistant
+      institution: Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), Abu Dhabi, UAE
+      year: 2023
+#      description:
+#        - title: Research intern at the Alexa Knowledge team
+#          contents:
+#            - Worked on faithful and robust information extraction on the web
+#            - Focused on generative information extraction
+#            -
     - title: Research Scientist Intern
       institution: Amazon Alexa AI, Cambridge, UK
-      year: 2022 - now
+      year: 2022
       description:
         - title: Research intern at the Alexa Knowledge team
           contents:
@@ -50,13 +59,14 @@
 
     - title: Research Scientist Intern
       institution:  Huawei Noah Ark’s Lab, London, UK
-      year: 2021-2022
+      year: 2021
       description:
         - title: Research intern at the NLP team of the Huawei Noah Ark’s Lab
           contents:
             - Integrate entity-level cross-lingual knowledge and use code-switching techniques to improve low resource language performance on various entity-centric tasks.
+            - Paper publisehd in EMNLP
 
-    - title: Machine Learning Engineer - Contractor
+    - title: Machine Learning Engineer
       institution: Replicate, Seattle, US
       year: 2021-now
       description:
