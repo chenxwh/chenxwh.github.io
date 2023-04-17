@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2023 April
 inline: true
 ---
 
-A simple inline announcement.
+Excited to share that I will be joining the Google Brain Team in Amsterdam this summer as a Research Intern!  :tada:
