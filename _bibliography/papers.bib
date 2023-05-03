@@ -5,7 +5,9 @@
   title={WebIE: Faithful and Robust Information Extraction on the Web},
   author={Chenxi Whitehouse and Clara Vania and Alham Fikri Aji and Christos Christodoulopoulos and Andrea Pierleoni},
   year={2023},
-  abbr={Preprint},
+  abbr={ACL},
+  code={https://github.com/amazon-science/WebIE},
+  abstract={Extracting structured and grounded fact triples from raw text is a fundamental task in Information Extraction (IE). Existing IE datasets are typically collected from Wikipedia articles, using hyperlinks to link entities to the Wikidata knowledge base. However, models trained only on Wikipedia have limitations when applied to web domains, which often contain noisy text or text that does not have any factual information. We present WebIE, the first large-scale, entity-linked closed IE dataset consisting of 1.7M sentences automatically collected from the English Common Crawl corpus. WebIE also includes negative examples, i.e. sentences without fact triples, to better reflect the data on the web. We annotate ~25K triples from WebIE through crowdsourcing and introduce WebIE, a translation of the annotated set in four other languages: French, Spanish, Portuguese, and Hindi. We evaluate the in-domain, out-of-domain, and zero-shot cross-lingual performance of generative IE models and find models trained on WebIE show better generalisability. We also propose three training strategies that use entity linking as an auxiliary task. Our experiments show that adding Entity-Linking objectives improves the faithfulness of our generative IE models.},
   selected={true}
 }
 
@@ -17,8 +19,8 @@
   year={2023},
   abbr={EACL},
   arxiv={2301.10799},
-  url={https://arxiv.org/abs/2301.10799},
-  pdf={https://arxiv.org/pdf/2301.10799.pdf},
+  url={https://aclanthology.org/2023.findings-eacl.126},
+  pdf={https://aclanthology.org/2023.findings-eacl.126/pdf},
   code={https://github.com/chenxwh/UMAE},
   slides={papers/vqa_eacl23/EACL.pdf},
   abstract={Providing explanations for visual question answering (VQA) has gained much attention in research. However, most existing systems use separate models for the answers and the explanations. We argue that training explanation models independently of the QA model makes the explanations less grounded and limits performance. To address this, we propose a novel multitask finetuning approach towards a Unified Model for more grounded and consistent generation of both Answers and Explanations (UMAE). To achieve this, we add artificial prompt tokens to training instances and finetune a multimodal encoder-decoder model on various VQA tasks. In our experiments, UMAE models surpass the prior SOTA answer accuracy on A-OKVQA by 10~15%, show competitive results on OK-VQA, achieve new SOTA explanation scores on A-OKVQA and VCR, and demonstrate promising out-of-domain performance on VQA-X.},
