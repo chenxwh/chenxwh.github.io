@@ -21,5 +21,5 @@ degree in Electrical Engineering at [University of Erlangen-Nürnberg](https://w
 My PhD research focuses on Natural Language Understanding and Generation, and Multimodal Learning with Knowledge and Reasoning.
 In my most recent projects I have also explored diffusion language models.
 
-I am currently a research intern at [Google DeepMind](https://www.deepmind.com/), working on parameter efficient modelling and crosslingual NLP. 
-Previously during my PhD I also worked as a research intern at [Amazon Alexa AI](https://amazon.jobs/en-gb/landing_pages/Cambridge) in Cambridge, and [Huawei Noah's Ark Lab](https://noahlab.com.hk/) in London, and visited [MBZUAI](https://mbzuai.ac.ae/) as research assistant.
+I am currently a research intern at [Google DeepMind](https://www.deepmind.com/) in Amsterdam, working on parameter efficient modelling and crosslingual NLP. 
+Previously during my PhD I also interned at [Amazon Alexa AI](https://amazon.jobs/en-gb/landing_pages/Cambridge) in Cambridge and [Huawei Noah's Ark Lab](https://noahlab.com.hk/) in London, and visited [MBZUAI](https://mbzuai.ac.ae/) as a research assistant.
