@@ -18,6 +18,8 @@ I am Chenxi, a PhD student at the computer science department of [City, Universi
 I received my Bachelor's degree in Information Engineering at [Xi'an Jiaotong University](http://en.xjtu.edu.cn/), and my Master's 
 degree in Electrical Engineering at [University of Erlangen-Nürnberg](https://www.fau.eu/) and [University College London](https://www.ucl.ac.uk/).
 
-My current research focuses on Natural Language Understanding and Generation, and Multimodal Learning with Knowledge and Reasoning.
-During my PhD I have worked as a research scientist intern at [Amazon Alexa AI](https://amazon.jobs/en-gb/landing_pages/Cambridge) in Cambridge, and [Huawei Noah's Ark Lab](https://noahlab.com.hk/) in London.
-I also visited [MBZUAI](https://mbzuai.ac.ae/) as research assistant and will be joining [Google DeepMind](https://research.google/locations/amsterdam/) in Amsterdam as a research scientist intern this summer.
+My PhD research focuses on Natural Language Understanding and Generation, and Multimodal Learning with Knowledge and Reasoning.
+In my most recent projects I have also explored diffusion language models.
+
+I am currently a research intern at [Google DeepMind](https://www.deepmind.com/), working on parameter efficient modelling and crosslingual NLP. 
+Previously during my PhD I also worked as a research intern at [Amazon Alexa AI](https://amazon.jobs/en-gb/landing_pages/Cambridge) in Cambridge, and [Huawei Noah's Ark Lab](https://noahlab.com.hk/) in London, and visited [MBZUAI](https://mbzuai.ac.ae/) as research assistant.
