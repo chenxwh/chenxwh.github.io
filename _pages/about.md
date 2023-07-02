@@ -14,12 +14,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am Chenxi, a PhD student at the computer science department of [City, University of London](https://www.city.ac.uk/) supervised by Dr Tillman Weyde and [Dr Pranava Madhyastha](https://pmadhyastha.github.io/).
+I am Chenxi, a PhD student at the computer science department of [City, University of London](https://www.city.ac.uk/) and currently a research intern at [Google DeepMind](https://www.deepmind.com/) in Amsterdam.
 I received my Bachelor's degree in Information Engineering at [Xi'an Jiaotong University](http://en.xjtu.edu.cn/), and my Master's 
 degree in Electrical Engineering at [University of Erlangen-Nürnberg](https://www.fau.eu/) and [University College London](https://www.ucl.ac.uk/).
 
 My PhD research focuses on Natural Language Understanding and Generation, and Multimodal Learning with Knowledge and Reasoning.
 In my most recent projects I have also explored diffusion language models.
 
-I am currently a research intern at [Google DeepMind](https://www.deepmind.com/) in Amsterdam, working on parameter efficient modelling and crosslingual NLP. 
+I am currently working on parameter efficient modelling and crosslingual NLP. 
 Previously during my PhD I also interned at [Amazon Alexa AI](https://amazon.jobs/en-gb/landing_pages/Cambridge) in Cambridge and [Huawei Noah's Ark Lab](https://noahlab.com.hk/) in London, and visited [MBZUAI](https://mbzuai.ac.ae/) as a research assistant.
