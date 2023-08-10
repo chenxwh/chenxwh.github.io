@@ -14,7 +14,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am Chenxi, a PhD student at the computer science department of [City, University of London](https://www.city.ac.uk/) and currently a research intern at [Google DeepMind](https://www.deepmind.com/) in Amsterdam.
+I am Chenxi, a final-year PhD student at the computer science department of [City, University of London](https://www.city.ac.uk/), working on NLP.
+Currently, I am a research intern at [Google DeepMind](https://www.deepmind.com/) in Amsterdam, supervised by [Jasmijn Bastings](https://jasmijn.ninja/), [Fantine Huot](https://scholar.google.com/citations?user=79VvQLMAAAAJ&hl=en), and [Mirella Lapata](https://scholar.google.com/citations?user=j67B9Q4AAAAJ&hl=en).
 I received my Bachelor's degree in Information Engineering at [Xi'an Jiaotong University](http://en.xjtu.edu.cn/), and my Master's 
 degree in Electrical Engineering at [University of Erlangen-Nürnberg](https://www.fau.eu/) and [University College London](https://www.ucl.ac.uk/).
 
