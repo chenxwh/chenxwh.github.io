@@ -1,11 +1,7 @@
-[comment]: <> (---)
+---
+layout: post
+date: 2023 October
+inline: true
+---
 
-[comment]: <> (layout: post)
-
-[comment]: <> (date: 2016-01-15 07:59:00-0400)
-
-[comment]: <> (inline: true)
-
-[comment]: <> (---)
-
-[comment]: <> (A simple inline announcement with Markdown emoji! :sparkles: :smile:)
+Our paper [LLM-powered Data Augmentation for Enhanced Cross-lingual Performance](https://arxiv.org/abs/2305.14288) from my visit at MBZUAI is accepted in the main conference of EMNLP 2023! :tada:
