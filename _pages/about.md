@@ -22,4 +22,6 @@ My research focuses on Natural Language Understanding and Generation, and Multil
 During my PhD I interned at [Google DeepMind](https://www.deepmind.com/) in Amsterdam (hosted by [Jasmijn Bastings](https://jasmijn.ninja/), [Fantine Huot](https://scholar.google.com/citations?user=79VvQLMAAAAJ&hl=en), and [Mirella Lapata](https://scholar.google.com/citations?user=j67B9Q4AAAAJ&hl=en)), [Amazon Alexa AI](https://amazon.jobs/en-gb/landing_pages/Cambridge) in Cambridge, [Huawei Noah's Ark Lab](https://noahlab.com.hk/) in London, and visited [MBZUAI](https://mbzuai.ac.ae/) as a research assistant.
 In my most recent projects I have also explored parameter efficient modelling (LoRA) and diffusion language models.
 
+I am also part of the machine learning engineering team at [Replicate](https://replicate.com/), working towards to open-source AI solutions.
+
 I will be joining [University of Cambridge](https://www.cst.cam.ac.uk/about) as a postdoc researcher in the new year, working with [Prof Andreas Vlachos](https://www.cst.cam.ac.uk/people/av308).
