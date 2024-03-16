@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2023 April
+date: 2023 May
 inline: true
 ---
 
-Excited to share that I will join [Google DeepMind](https://www.deepmind.com/) this summer as a Research Intern! :tada:
+Our paper [WebIE: Faithful and Robust Information Extraction on the Web](https://aclanthology.org/2023.acl-long.428) from my internship with Amazon is accepted in the main conference of [ACL 2023](https://2023.aclweb.org/)! :tada:
