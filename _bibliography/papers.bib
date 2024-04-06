@@ -2,14 +2,14 @@
 ---
 
 @inproceedings{whitehouse2023lora,
-  title={Parameter-Efficient Multilingual Summarisation: An Empirical Study},
+  title={Low-Rank Adaptaion for Multilingual Summarisation: An Empirical Study},
   author={Chenxi Whitehouse and Fantine Huot and Jasmijn Bastings and Mostafa Dehghani and Chu-Cheng Lin and Mirella Lapata},
   year={2024},
   abbr={NAACL},
   arxiv={2311.08572},
   url={https://arxiv.org/abs/2311.08572},
   pdf={https://arxiv.org/pdf/2311.08572.pdf},
-  abstract={With the increasing prevalence of Large Language Models, traditional full fine-tuning approaches face growing challenges, especially in memory-intensive tasks. This paper investigates the potential of Parameter-Efficient Fine-Tuning, focusing on Low-Rank Adaptation (LoRA), for complex and under-explored multilingual summarisation tasks. We conduct an extensive study across different data availability scenarios, including full-data, low-data, and cross-lingual transfer, leveraging models of different sizes. Our findings reveal that LoRA is competitive with full fine-tuning when trained with full data, and excels in low-data scenarios and cross-lingual transfer. Additionally, we investigate effective strategies for few-shot cross-lingual transfer, finding that continued LoRA tuning achieves the best performance compared to both full fine-tuning and dynamic composition of language-specific LoRA modules.},
+  abstract={Although the advancements of pre-trained Large Language Models have significantly accelerated recent progress in NLP, their ever-increasing size poses significant challenges for conventional fine-tuning, especially in memory-intensive tasks. We investigate the potential of Parameter-Efficient Fine-Tuning, focusing on Low-Rank Adaptation (LoRA), in the domain of multilingual summarization, a task that is both challenging (due to typically long inputs), and relatively unexplored.  We conduct an extensive study across different data availability scenarios, including high- and low-data settings, and cross-lingual transfer, leveraging models of different sizes. Our findings reveal that LoRA is competitive with full fine-tuning when trained with high quantities of data, and excels in low-data scenarios and cross-lingual transfer. We also study different strategies for few-shot cross-lingual transfer, finding that continued LoRA tuning outperforms full fine-tuning and the dynamic composition of language-specific LoRA modules.},
   selected={true}
 }
 
@@ -41,15 +41,25 @@
 }
 
 @inproceedings{lin2024multitask,
-  title={Multitask Multilingual Model Adaptation with Featurized Low-Rank Mixtures},
+  title={Inducing Generalization across Languages and Tasks using Featurized Low-Rank Mixtures},
   author={Chu-Cheng Lin and Xinyi Wang and Jonathan H. Clark and Han Lu and Yun Zhu and Chenxi Whitehouse and Hongkun Yu},
   year={2024},
   abbr={Preprint},
   arxiv={2402.17934},
   url={https://arxiv.org/abs/2402.17934},
   pdf={https://arxiv.org/abs/2402.17934.pdf},
-  abstract={Adapting pretrained large language models (LLMs) to various downstream tasks in tens or hundreds of human languages is computationally expensive. Parameter-efficient fine-tuning (PEFT) significantly reduces the adaptation cost, by tuning only a small amount of parameters. However, directly applying PEFT methods such as LoRA (Hu et al., 2022) on diverse dataset mixtures could lead to suboptimal performance due to limited parameter capacity and negative interference among different datasets. In this work, we propose Featurized Low-rank Mixtures (FLix), a novel PEFT method designed for effective multitask multilingual tuning. FLix associates each unique dataset feature, such as the dataset's language or task, with its own low-rank weight update parameters. By composing feature-specific parameters for each dataset, FLix can accommodate diverse dataset mixtures and generalize better to unseen datasets. Our experiments show that FLix leads to significant improvements over a variety of tasks for both supervised learning and zero-shot settings using different training data mixtures.},
+  abstract={Adapting pretrained large language models (LLMs) to various downstream tasks in tens or hundreds of human languages is computationally expensive. Parameter-efficient fine-tuning (PEFT) significantly reduces the adaptation cost, by tuning only a small amount of parameters. However, common PEFT methods LoRA (Hu et al., 2022) suffer from suboptimal performance on diverse dataset mixtures, due to aggressive parameter tying and negative interference among different datasets. In this work, we propose Featurized Low-rank Mixtures (FLix), a novel PEFT method designed for effective multitask multilingual adaptation. FLix associates each unique dataset feature, such as the dataset's language or task, with its own low-rank weight update parameters. By composing feature-specific parameters for each dataset, FLix can accommodate diverse dataset mixtures and generalize better to unseen datasets. Our experiments show that FLix leads to significant improvements over a variety of tasks for both supervised learning and zero-shot settings with gains of up to 14.2 in exact match points in zero-shot semantic parsing.},
 }
+
+
+@inproceedings{lin2024multitask,
+  title={PRobELM: Plausibility Ranking Evaluation for Language Models},
+  author={Moy Yuan and Chenxi Whitehouse and Eric Chamoun and Rami Aly and Andreas Vlachos},
+  year={2024},
+  abbr={Preprint},
+  abstract={This paper introduces PRobELM (Plausibility Ranking Evaluation for Language Models), a benchmark designed to assess language models' ability to discern more plausible from less plausible scenarios through their parametric knowledge. While benchmarks such as TruthfulQA emphasise factual accuracy or truthfulness, and others such as COPA explore plausible scenarios without explicitly incorporating world knowledge, PRobELM seeks to bridge this gap by evaluating models' capabilities to prioritise plausible scenarios that leverage world knowledge over less plausible alternatives. This design allows us to assess the potential of language models for downstream use cases such as literature-based discovery where the focus is on identifying information that is likely but not yet known. Our benchmark is constructed from a dataset curated from Wikidata edit histories, tailored to align the temporal bounds of the training data for the evaluated models. PRobELM facilitates the evaluation of language models across multiple prompting types, including statement, text completion, and question-answering. Experiments with 10 models of various sizes and architectures on the relationship between model scales, training recency, and plausibility performance, reveal that factual accuracy does not directly correlate with plausibility performance and that up-to-date training data enhances plausibility assessment across different model architectures.},
+}
+
 
 @inproceedings{whitehouse-etal-2023-webie,
   title={WebIE: Faithful and Robust Information Extraction on the Web},

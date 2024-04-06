@@ -1,10 +1,14 @@
 "Whitehouse":
   - firstname: ["Chenxi", "C."]
-    url: https://scholar.google.com/citations?hl=en&user=MxJqtPIAAAAJ
+    url: https://scholar.google.co.uk/citations?user=MxJqtPIAAAAJ&hl=en
 
 "Aji":
   - firstname: ["Alham Fikri", "A."]
     url: https://scholar.google.com/citations?user=0Cyfqv4AAAAJ&hl=en
+
+"Aly":
+  - firstname: ["Rami", "R."]
+    url: https://scholar.google.com/citations?user=dbzGY5YAAAAJ&hl=en
 
 "Bastings":
   - firstname: ["Jasmijn", "J."]
@@ -16,7 +20,7 @@
 
 "Christopoulou":
   - firstname: [ "Fenia", "F." ]
-    url: https://scholar.google.com/citations?hl=en&user=nVKZdJkAAAAJ
+    url: https://scholar.google.co.uk/citations?user=nVKZdJkAAAAJ&hl=en
 
 "Choudhury":
   - firstname: ["Monojit", "M."]
@@ -24,7 +28,7 @@
 
 "Dehghani":
   - firstname: ["Mostafa", "M."]
-    url: https://scholar.google.com/citations?hl=en&user=MiHOX3QAAAAJ
+    url: https://scholar.google.com/citations?user=MiHOX3QAAAAJ&hl=en
 
 "Huot":
   - firstname: ["Fantine", "F."]
@@ -32,11 +36,11 @@
 
 "Iacobacci":
   - firstname: ["Ignacio", "I."]
-    url: https://scholar.google.com/citations?hl=en&user=zOmsu9EAAAAJ
+    url: https://scholar.google.it/citations?user=zOmsu9EAAAAJ&hl=en
 
 "Komninos":
   - firstname: ["Nikos", "N."]
-    url: https://scholar.google.com/citations?hl=en&user=rVGN5hUAAAAJ
+    url: https://scholar.google.com/citations?user=rVGN5hUAAAAJ&hl=en
 
 "Lapata":
   - firstname: ["Mirella", "M."]
@@ -48,7 +52,7 @@
 
 "Madhyastha":
   - firstname: ["Pranava", "P."]
-    url: https://scholar.google.com/citations?hl=en&user=Tarh6WoAAAAJ
+    url: https://scholar.google.com/citations?user=Tarh6WoAAAAJ&hl=en
 
 "Nakov":
   - firstname: ["Preslav", "P."]
@@ -62,6 +66,10 @@
   - firstname: ["Clara", "C."]
     url: https://scholar.google.com/citations?user=4WvFs_IAAAAJ&hl=en
 
+"Vlachos":
+  - firstname: ["Andreas", "A."]
+    url: https://scholar.google.co.uk/citations?user=XjWnyM4AAAAJ&hl=en
+
 "Weyde":
   - firstname: ["Tillman", "T."]
-    url: https://scholar.google.com/citations?hl=en&user=DUgCliAAAAAJ
+    url: https://scholar.google.co.uk/citations?user=DUgCliAAAAAJ&hl=en
