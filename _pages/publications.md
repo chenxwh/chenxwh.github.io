@@ -10,6 +10,8 @@ nav_order: 1
 <!-- _pages/publications.md -->
 <div class="publications">
 
+* indicates Equal Contribution.
+
 <!-- <h2> Conference Papers </h2> -->
 
 {%- for y in page.years %}
