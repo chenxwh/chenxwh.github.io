@@ -14,7 +14,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am Chenxi, a postdoc researcher at [University of Cambridge](https://www.cst.cam.ac.uk/about) working with [Prof Andreas Vlachos](https://www.cst.cam.ac.uk/people/av308) on automated fact-checking.
+I am Chenxi, a postdoc research associate at [University of Cambridge](https://www.cst.cam.ac.uk/about) working with [Prof Andreas Vlachos](https://www.cst.cam.ac.uk/people/av308) on automated fact-checking.
 I pursued my PhD studies on knowledge-grounded NLP at [City, University of London](https://www.city.ac.uk/).
 Prior to that, I received my Bachelor's degree in Information Engineering at [Xi'an Jiaotong University](http://en.xjtu.edu.cn/), and my Master's 
 degree in Electrical Engineering at [University of Erlangen-Nürnberg](https://www.fau.eu/) and [University College London](https://www.ucl.ac.uk/).
