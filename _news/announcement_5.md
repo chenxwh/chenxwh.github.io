@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2024 March
+date: 2024 Feburary
 inline: true
 ---
 
-Our paper [Low-Rank Adaptation for Multilingual Summarisation: An Empirical Study](https://arxiv.org/abs/2311.08572) from my internship at [Google DeepMind](https://deepmind.google/) is accepted in the findings of [NAACL 2024](https://2024.naacl.org/)! :tada:
+Excited to share that I have passed my Viva! Warmest thanks to everyone who helped my PhD journey and the amazing examiners [Prof Isabelle Augenstein](https://isabelleaugenstein.github.io/) and [Prof Nikos Aletras](https://nikosaletras.com/)!🎓
