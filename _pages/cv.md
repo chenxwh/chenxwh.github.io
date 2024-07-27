@@ -4,5 +4,5 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 3
-cv_pdf: Chenxi_Whitehouse.pdf
+cv_pdf: cv/Chenxi_Whitehouse.pdf
 ---
