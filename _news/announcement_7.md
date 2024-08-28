@@ -4,4 +4,4 @@ date: 2024 July
 inline: true
 ---
 
-Our paper [PRobELM: Plausibility Ranking Evaluation for Language Models](https://arxiv.org/abs/2404.03818) is accepted in the first Conference of Language Modelling [COLM 2024](https://colmweb.org/index.html)! :tada:
+Happy to share that I have joined [Amazon AGI](https://www.amazon.science/locations/london-and-cambridge/) in Cambridge as an applied research scientist!
