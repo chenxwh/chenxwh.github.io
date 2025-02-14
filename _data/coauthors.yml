@@ -54,6 +54,10 @@
   - firstname: ["Chu-Cheng", "Chu", "ChuCheng", "C."]
     url: https://scholar.google.com/citations?user=bgR6Gu4AAAAJ&hl=en
 
+"Liu":
+  - firstname: ["Dongqi", "D."]
+    url: https://scholar.google.com/citations?user=KrSiNLwAAAAJ&hl=en
+
 "Madhyastha":
   - firstname: ["Pranava", "P."]
     url: https://scholar.google.com/citations?user=Tarh6WoAAAAJ&hl=en
@@ -69,6 +73,10 @@
 "Schlichtkrull":
   - firstname: ["Michael", "M."]
     url: https://scholar.google.com/citations?user=z8YvWyEAAAAJ&hl=en
+
+"Thorne":
+  - firstname: ["James", "J."]
+    url: https://scholar.google.co.uk/citations?user=hao9RrgAAAAJ&hl=en
 
 "Vania":
   - firstname: ["Clara", "C."]
