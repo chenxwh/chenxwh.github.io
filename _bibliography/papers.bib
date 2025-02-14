@@ -1,7 +1,6 @@
 ---
 ---
 
-
 @article{liu2024VISTA,
   title={What Is That Talk About? A Video-to-Text Summarization Dataset for Scientific Presentations},
   author={Dongqi Liu and Chenxi Whitehouse and Xi Yu and Louis Mahon and Rohit Saxena and Zheng Zhao and Yifu Qiu and Mirella Lapata and Vera Demberg},
@@ -12,7 +11,6 @@
   pdf={https://arxiv.org/pdf/2502.08279},
   abstract={Transforming recorded videos into concise and accurate textual summaries is a growing challenge in multimodal learning. This paper introduces VISTA, a dataset specifically designed for video-to-text summarization in scientific domains. VISTA contains 18,599 recorded AI conference presentations paired with their corresponding paper abstracts. We benchmark the performance of state-of-the-art large models and apply a plan-based framework to better capture the structured nature of abstracts. Both human and automated evaluations confirm that explicit planning enhances summary quality and factual consistency. However, a considerable gap remains between models and human performance, highlighting the challenges of scientific video summarization.}
 }
-
 
 @article{zhu2024diffusion,
   title={Segment-Level Diffusion: A Framework for Controllable Long-Form Generation with Diffusion Language Models},
@@ -25,8 +23,7 @@
   abstract={Diffusion models have shown promise in text generation but often struggle with generating long, coherent, and contextually accurate text. Token-level diffusion overlooks word-order dependencies and enforces short output windows, while passage-level diffusion struggles with learning robust representation for long-form text. To address these challenges, we propose Segment-Level Diffusion (SLD), a framework that enhances diffusion-based text generation through text segmentation, robust representation training with adversarial and contrastive learning, and improved latent-space guidance. By segmenting long-form outputs into separate latent representations and decoding them with an autoregressive decoder, SLD simplifies diffusion predictions and improves scalability. Experiments on XSum, ROCStories, DialogSum, and DeliData demonstrate that SLD achieves competitive or superior performance in fluency, coherence, and contextual compatibility across automatic and human evaluation metrics comparing with other diffusion and autoregressive baselines. Ablation studies further validate the effectiveness of our segmentation and representation learning strategies.}
 }
 
-
-@article{romero2024cvqa,
+@inproceedings{romero2024cvqa,
   title={CVQA: Culturally-diverse Multilingual Visual Question Answering Benchmark},
   author={David Romero and Chenyang Lyu and Haryo Akbarianto Wibowo and ... and Chenxi Whitehouse and ... and Alham Fikri Aji},
   year={2024},
@@ -37,8 +34,18 @@
   abstract={Visual Question Answering~(VQA) is an important task in multimodal AI, which requires models to understand and reason on knowledge present in visual and textual data. However, most of the current VQA datasets and models are primarily focused on English and a few major world languages, with images that are Western-centric. While recent efforts have tried to increase the number of languages covered on VQA datasets, they still lack diversity in low-resource languages. More importantly, some datasets extend the text to other languages, either via translation or some other approaches, but usually keep the same images, resulting in narrow cultural representation. To address these limitations, we create CVQA, a new Culturally-diverse Multilingual Visual Question Answering benchmark dataset, designed to cover a rich set of languages and regions, where we engage native speakers and cultural experts in the data collection process. CVQA includes culturally-driven images and questions from across 28 countries in four continents, covering 26 languages with 11 scripts, providing a total of 9k questions. We benchmark several Multimodal Large Language Models (MLLMs) on CVQA, and we show that the dataset is challenging for the current state-of-the-art models. This benchmark will serve as a probing evaluation suite for assessing the cultural bias of multimodal models and hopefully encourage more research efforts towards increasing cultural awareness and linguistic diversity in this field.}
 }
 
+@inproceedings{schlichtkrull-etal-2024-automated,
+  title={The Automated Verification of Textual Claims (AVeriTeC) Shared Task},
+  author={Michael Schlichtkrull and Yulong Chen and Chenxi Whitehouse and Zhenyun Deng and Mubashara Akhtar and Rami Aly and Zhijiang Guo and Christos Christodoulopoulos and Oana Cocarascu and Arpit Mittal and James Thorne and Andreas Vlachos},
+  year={2024},
+  abbr={FEVER},
+  arxiv={2410.23850},
+  url={https://aclanthology.org/2024.fever-1.1},
+  pdf={https://aclanthology.org/2024.fever-1.1.pdf},
+  abstract={The Automated Verification of Textual Claims (AVeriTeC) shared task asks participants to retrieve evidence and predict veracity for real-world claims checked by fact-checkers. Evidence can be found either via a search engine, or via a knowledge store provided by the organisers. Submissions are evaluated using the AVeriTeC score, which considers a claim to be accurately verified if and only if both the verdict is correct and retrieved evidence is considered to meet a certain quality threshold. The shared task received 21 submissions, 18 of which surpassed our baseline. The winning team was TUDA_MAI with an AVeriTeC score of 63%. In this paper we describe the shared task, present the full results, and highlight key takeaways from the shared task.}
+}
 
-@article{lovenia2024seacrowd,
+@inproceedings{lovenia2024seacrowd,
   title={SEACrowd: A Multilingual Multimodal Data Hub and Benchmark Suite for Southeast Asian Languages},
   author={Holy Lovenia and Rahmad Mahendra and Salsabil Maulana Akbar and ... and Chenxi Whitehouse and ... and Samuel Cahyawijaya},
   year={2024},
@@ -48,7 +55,6 @@
   pdf={https://aclanthology.org/2024.emnlp-main.296.pdf},
   abstract={Southeast Asia (SEA) is a region rich in linguistic diversity and cultural variety, with over 1,300 indigenous languages and a population of 671 million people. However, prevailing AI models suffer from a significant lack of representation of texts, images, and audio datasets from SEA, compromising the quality of AI models for SEA languages. Evaluating models for SEA languages is challenging due to the scarcity of high-quality datasets, compounded by the dominance of English training data, raising concerns about potential cultural misrepresentation. To address these challenges, we introduce SEACrowd, a collaborative initiative that consolidates a comprehensive resource hub that fills the resource gap by providing standardized corpora in nearly 1,000 SEA languages across three modalities. Through our SEACrowd benchmarks, we assess the quality of AI models on 36 indigenous languages across 13 tasks, offering valuable insights into the current AI landscape in SEA. Furthermore, we propose strategies to facilitate greater AI advancements, maximizing potential utility and resource equity for the future of AI in SEA.}
 }
-
 
 @inproceedings{yuan2024problem,
   title={PRobELM: Plausibility Ranking Evaluation for Language Models},
@@ -112,7 +118,6 @@
   pdf={https://arxiv.org/pdf/2402.17934},
   abstract={Adapting pretrained large language models (LLMs) to various downstream tasks in tens or hundreds of human languages is computationally expensive. Parameter-efficient fine-tuning (PEFT) significantly reduces the adaptation cost, by tuning only a small amount of parameters. However, common PEFT methods LoRA (Hu et al., 2022) suffer from suboptimal performance on diverse dataset mixtures, due to aggressive parameter tying and negative interference among different datasets. In this work, we propose Featurized Low-rank Mixtures (FLix), a novel PEFT method designed for effective multitask multilingual adaptation. FLix associates each unique dataset feature, such as the dataset's language or task, with its own low-rank weight update parameters. By composing feature-specific parameters for each dataset, FLix can accommodate diverse dataset mixtures and generalize better to unseen datasets. Our experiments show that FLix leads to significant improvements over a variety of tasks for both supervised learning and zero-shot settings with gains of up to 14.2 in exact match points in zero-shot semantic parsing.},
 }
-
 
 @inproceedings{whitehouse-etal-2023-webie,
   title={WebIE: Faithful and Robust Information Extraction on the Web},
