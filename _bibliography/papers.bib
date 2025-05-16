@@ -8,13 +8,14 @@
   abbr={Preprint},
   arxiv={2505.10320},
   url={https://arxiv.org/abs/2505.10320},
-  pdf={https://arxiv.org/abs/2505.10320},
+  pdf={https://arxiv.org/pdf/2505.10320},
   abstract={The progress of AI is bottlenecked by the quality of evaluation, and powerful LLM-as-a-Judge models have proved to be a core solution. Improved judgment ability is enabled by stronger chain-of-thought reasoning, motivating the need to find the best recipes for training such models to think. In this work we introduce J1, a reinforcement learning approach to training such models. Our method converts both verifiable and non-verifiable prompts to judgment tasks with verifiable rewards that incentivize thinking and mitigate judgment bias. In particular, our approach outperforms all other existing 8B or 70B models when trained at those sizes, including models distilled from DeepSeek-R1. J1 also outperforms o1-mini, and even R1 on some benchmarks, despite training a smaller model. We provide analysis and ablations comparing Pairwise-J1 vs Pointwise-J1 models, offline vs online training recipes, reward strategies, seed prompts, and variations in thought length and content. We find that our models make better judgments by learning to outline evaluation criteria, comparing against self-generated reference answers, and re-evaluating the correctness of model responses.},
   selected={true}
 }
 
 @article{liu2024vista,
   title={What Is That Talk About? A Video-to-Text Summarization Dataset for Scientific Presentations},
+  booktitle={Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics},
   author={Dongqi Liu and Chenxi Whitehouse and Xi Yu and Louis Mahon and Rohit Saxena and Zheng Zhao and Yifu Qiu and Mirella Lapata and Vera Demberg},
   year={2025},
   abbr={ACL},
@@ -26,6 +27,7 @@
 
 @article{zhu2024diffusion,
   title={Segment-Level Diffusion: A Framework for Controllable Long-Form Generation with Diffusion Language Models},
+  booktitle={Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics},
   author={Xiaochen Zhu and Georgi Karadzhov and Chenxi Whitehouse and Andreas Vlachos},
   year={2025},
   abbr={ACL},
@@ -38,6 +40,7 @@ Token-level diffusion doesn't model word-order dependencies explicitly and opera
 
 @inproceedings{romero2024cvqa,
   title={CVQA: Culturally-diverse Multilingual Visual Question Answering Benchmark},
+  booktitle={The Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
   author={David Romero and Chenyang Lyu and Haryo Akbarianto Wibowo and ... and Chenxi Whitehouse and ... and Alham Fikri Aji},
   year={2024},
   abbr={NeurIPS},
@@ -49,6 +52,7 @@ Token-level diffusion doesn't model word-order dependencies explicitly and opera
 
 @inproceedings{schlichtkrull-etal-2024-automated,
   title={The Automated Verification of Textual Claims (AVeriTeC) Shared Task},
+  booktitle={Proceedings of the Seventh Fact Extraction and VERification Workshop (FEVER)},
   author={Michael Schlichtkrull and Yulong Chen and Chenxi Whitehouse and Zhenyun Deng and Mubashara Akhtar and Rami Aly and Zhijiang Guo and Christos Christodoulopoulos and Oana Cocarascu and Arpit Mittal and James Thorne and Andreas Vlachos},
   year={2024},
   abbr={FEVER},
@@ -60,6 +64,7 @@ Token-level diffusion doesn't model word-order dependencies explicitly and opera
 
 @inproceedings{lovenia2024seacrowd,
   title={SEACrowd: A Multilingual Multimodal Data Hub and Benchmark Suite for Southeast Asian Languages},
+  booktitle={Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},
   author={Holy Lovenia and Rahmad Mahendra and Salsabil Maulana Akbar and ... and Chenxi Whitehouse and ... and Samuel Cahyawijaya},
   year={2024},
   abbr={EMNLP},
@@ -71,6 +76,7 @@ Token-level diffusion doesn't model word-order dependencies explicitly and opera
 
 @inproceedings{yuan2024problem,
   title={PRobELM: Plausibility Ranking Evaluation for Language Models},
+  booktitle={First Conference on Language Modeling},
   author={Moy Yuan and Chenxi Whitehouse and Eric Chamoun and Rami Aly and Andreas Vlachos},
   year={2024},
   abbr={COLM},
@@ -82,6 +88,7 @@ Token-level diffusion doesn't model word-order dependencies explicitly and opera
 
 @inproceedings{whitehouse2023lora,
   title={Low-Rank Adaptaion for Multilingual Summarisation: An Empirical Study},
+  booktitle={Findings of the Association for Computational Linguistics: NAACL 2024},
   author={Chenxi Whitehouse and Fantine Huot and Jasmijn Bastings and Mostafa Dehghani and Chu-Cheng Lin and Mirella Lapata},
   year={2024},
   abbr={NAACL},
@@ -96,6 +103,7 @@ Token-level diffusion doesn't model word-order dependencies explicitly and opera
 
 @inproceedings{whitehouse-etal-2023-llm,
   title={LLM-powered Data Augmentation for Enhanced Cross-lingual Performance},
+  booktitle={Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
   author={Chenxi Whitehouse and Monojit Choudhury and Alham Fikri Aji},
   year={2023},
   abbr={EMNLP},
@@ -111,11 +119,12 @@ Token-level diffusion doesn't model word-order dependencies explicitly and opera
 
 @inproceedings{wang-etal-2024-m4,
   title={M4: Multi-generator, Multi-domain, and Multi-lingual Black-Box Machine-Generated Text Detection},
+  booktitle={Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics},
   author={Yuxia Wang and Jonibek Mansurov and Petar Ivanov and Jinyan Su and Artem Shelmanov and Akim Tsvigun and Chenxi Whitehouse and Osama Mohammed Afzal and Tarek Mahmoud and Alham Fikri Aji and Preslav Nakov},
   year={2024},
   abbr={EACL},
   arxiv={2305.14902},
-  url={https://aclanthology.org/2024.eacl-long.83/},
+  url={https://aclanthology.org/2024.eacl-long.83},
   pdf={https://aclanthology.org/2024.eacl-long.83.pdf},
   code={https://github.com/mbzuai-nlp/M4},
   abstract={Large language models (LLMs) have demonstrated remarkable capability to generate fluent responses to a wide variety of user queries. However, this has also raised concerns about the potential misuse of such texts in journalism, education, and academia. In this study, we strive to create automated systems that can detect machine-generated texts and pinpoint potential misuse. We first introduce a large-scale benchmark M4, which is a multi-generator, multi-domain, and multi-lingual corpus for machine-generated text detection. Through an extensive empirical study of this dataset, we show that it is challenging for detectors to generalize well on instances from unseen domains or LLMs. In such cases, detectors tend to misclassify machine-generated text as human-written. These results show that the problem is far from solved and that there is a lot of room for improvement. We believe that our dataset will enable future research towards more robust approaches to this pressing societal problem. The dataset is available at https://github.com/mbzuai-nlp/M4.},
@@ -179,7 +188,7 @@ Token-level diffusion doesn't model word-order dependencies explicitly and opera
 @inproceedings{Whitehouse_Weyde_Madhyastha_Komninos_2022,
   title={Evaluation of Fake News Detection with Knowledge-Enhanced Language Models},
   author={Chenxi Whitehouse and Tillman Weyde and Pranava Madhyastha and Nikos Komninos},
-  booktitle={Proceedings of the International AAAI Conference on Web and Social Media 2022},
+  booktitle={Proceedings of the Sixteenth International AAAI Conference on Web and Social Media},
   volume={16},
   pages={1425--1429},
   year={2022},
