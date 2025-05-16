@@ -46,6 +46,10 @@
   - firstname: ["Nikos", "N."]
     url: https://scholar.google.com/citations?user=rVGN5hUAAAAJ&hl=en
 
+"Kulikov":
+  - firstname: ["Ilia", "I."]
+    url: https://scholar.google.de/citations?user=fN7fYXIAAAAJ&hl=en
+
 "Lapata":
   - firstname: ["Mirella", "M."]
     url: https://scholar.google.co.uk/citations?user=j67B9Q4AAAAJ&hl=en
@@ -70,6 +74,10 @@
   - firstname: ["Andrea", "A."]
     url: https://scholar.google.co.uk/citations?user=4qU3GDIAAAAJ&hl=en
 
+"Saha":
+  - firstname: ["Swarnadeep", "S."]
+    url: https://scholar.google.com/citations?user=sY5SyBgAAAAJ&hl=en
+
 "Schlichtkrull":
   - firstname: ["Michael", "M."]
     url: https://scholar.google.com/citations?user=z8YvWyEAAAAJ&hl=en
@@ -85,6 +93,10 @@
 "Vlachos":
   - firstname: ["Andreas", "A."]
     url: https://scholar.google.co.uk/citations?user=XjWnyM4AAAAJ&hl=en
+
+"Weston":
+  - firstname: ["Jason", "J."]
+    url: https://scholar.google.com/citations?user=lMkTx0EAAAAJ&hl=en
 
 "Weyde":
   - firstname: ["Tillman", "T."]
