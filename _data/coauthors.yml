@@ -18,6 +18,10 @@
   - firstname: ["Samuel", "S."]
     url: https://scholar.google.com/citations?user=w5w_WZEAAAAJ&hl=en
 
+"Cancedda":
+  - firstname: ["Nicola", "N."]
+    url: https://scholar.google.com/citations?user=PXGsctkAAAAJ&hl=en
+
 "Christodoulopoulos":
   - firstname: ["Christos", "C."]
     url: https://scholar.google.com/citations?user=oZORQtwAAAAJ&hl=en
@@ -33,6 +37,10 @@
 "Dehghani":
   - firstname: ["Mostafa", "M."]
     url: https://scholar.google.com/citations?user=MiHOX3QAAAAJ&hl=en
+
+"Guzmán":
+  - firstname: ["Francisco", "F."]
+    url: https://scholar.google.com/citations?user=eEBT0BAAAAAJ&hl=en
 
 "Huot":
   - firstname: ["Fantine", "F."]
@@ -105,3 +113,7 @@
 "Weyde":
   - firstname: ["Tillman", "T."]
     url: https://scholar.google.co.uk/citations?user=DUgCliAAAAAJ&hl=en
+
+"Williams":
+  - firstname: ["Adina", "A."]
+    url: https://scholar.google.com/citations?user=MUtbKt0AAAAJ&hl=en

@@ -13,11 +13,9 @@
   selected={true}
 }
 
-
-
 @article{whitehouse2025menlo,
   title={MENLO: From Preferences to Proficiency -- Evaluating and Modeling Native-like Quality Across 47 Languages},
-  author={Chenxi Whitehouse and Sebastian Ruder and Tony Lin and Oksana Kurylo and Haruka Takagi and Janice Lam and Nicolò Busetto and Denise Diaz},
+  author={Chenxi Whitehouse and Sebastian Ruder and Tony Lin and Oksana Kurylo and Haruka Takagi and Janice Lam and Nicolò Busetto and Denise Diaz and Francisco Guzmán},
   year={2025},
   abbr={Preprint},
   arxiv={2509.26601},
@@ -26,20 +24,6 @@
   abstract={Ensuring native-like quality of large language model (LLM) responses across many languages is challenging. To address this, we introduce MENLO, a framework that operationalizes the evaluation of native-like response quality based on audience design-inspired mechanisms. Using MENLO, we create a dataset of 6,423 human-annotated prompt-response preference pairs covering four quality dimensions with high inter-annotator agreement in 47 language varieties. Our evaluation reveals that zero-shot LLM judges benefit significantly from pairwise evaluation and our structured annotation rubrics, yet they still underperform human annotators on our dataset. We demonstrate substantial improvements through fine-tuning with reinforcement learning, reward shaping, and multi-task learning approaches. Additionally, we show that RL-trained judges can serve as generative reward models to enhance LLMs' multilingual proficiency, though discrepancies with human judgment remain. Our findings suggest promising directions for scalable multilingual evaluation and preference alignment. We release our dataset and evaluation framework to support further research in multilingual LLM evaluation.},
   selected={true}
 }
-
-
-@article{whitehouse2025j1,
-  title={MENLO: From Preferences to Proficiency -- Evaluating and Modeling Native-like Quality Across 47 Languages},
-  author={Chenxi Whitehouse and Sebastian Ruder and Tony Lin and Oksana Kurylo and Haruka Takagi and Janice Lam and Nicolò Busetto and Denise Diaz},
-  year={2025},
-  abbr={Preprint},
-  arxiv={2509.26601},
-  url={https://arxiv.org/abs/2509.26601},
-  pdf={https://arxiv.org/pdf/2509.26601},
-  abstract={Ensuring native-like quality of large language model (LLM) responses across many languages is challenging. To address this, we introduce MENLO, a framework that operationalizes the evaluation of native-like response quality based on audience design-inspired mechanisms. Using MENLO, we create a dataset of 6,423 human-annotated prompt-response preference pairs covering four quality dimensions with high inter-annotator agreement in 47 language varieties. Our evaluation reveals that zero-shot LLM judges benefit significantly from pairwise evaluation and our structured annotation rubrics, yet they still underperform human annotators on our dataset. We demonstrate substantial improvements through fine-tuning with reinforcement learning, reward shaping, and multi-task learning approaches. Additionally, we show that RL-trained judges can serve as generative reward models to enhance LLMs' multilingual proficiency, though discrepancies with human judgment remain. Our findings suggest promising directions for scalable multilingual evaluation and preference alignment. We release our dataset and evaluation framework to support further research in multilingual LLM evaluation.},
-  selected={true}
-}
-
 
 @article{whitehouse2025j1,
   title={J1: Incentivizing Thinking in LLM-as-a-Judge via Reinforcement Learning},
@@ -53,6 +37,18 @@
   selected={true}
 }
 
+@article{radharapu2025calibrating,
+  title={Calibrating LLM Judges: Linear Probes for Fast and Reliable Uncertainty Estimation},
+  booktitle={Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics},
+  author={Bhaktipriya Radharapu and Eshika Saxena and Kenneth Li and Chenxi Whitehouse and Adina Williams and Nicola Cancedda},
+  year={2025},
+  abbr={Preprint},
+  arxiv={2512.22245},
+  url={https://arxiv.org/abs/2512.22245},
+  pdf={https://arxiv.org/pdf/2512.22245},
+  abstract={As LLM-based judges become integral to industry applications, obtaining well-calibrated uncertainty estimates efficiently has become critical for production deployment. However, existing techniques, such as verbalized confidence and multi-generation methods, are often either poorly calibrated or computationally expensive. We introduce linear probes trained with a Brier score-based loss to provide calibrated uncertainty estimates from reasoning judges' hidden states, requiring no additional model training. We evaluate our approach on both objective tasks (reasoning, mathematics, factuality, coding) and subjective human preference judgments. Our results demonstrate that probes achieve superior calibration compared to existing methods with ≈10x computational savings, generalize robustly to unseen evaluation domains, and deliver higher accuracy on high-confidence predictions. However, probes produce conservative estimates that underperform on easier datasets but may benefit safety-critical deployments prioritizing low false-positive rates. Overall, our work demonstrates that interpretability-based uncertainty estimation provides a practical and scalable plug-and-play solution for LLM judges in production.}
+}
+
 @article{liu2024vista,
   title={What Is That Talk About? A Video-to-Text Summarization Dataset for Scientific Presentations},
   booktitle={Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics},
@@ -60,8 +56,8 @@
   year={2025},
   abbr={ACL},
   arxiv={2502.08279},
-  url={https://arxiv.org/abs/2502.08279},
-  pdf={https://arxiv.org/pdf/2502.08279},
+  url={https://aclanthology.org/2025.acl-long.310},
+  pdf={https://aclanthology.org/2025.acl-long.310.pdf},
   abstract={Transforming recorded videos into concise and accurate textual summaries is a growing challenge in multimodal learning. This paper introduces VISTA, a dataset specifically designed for video-to-text summarization in scientific domains. VISTA contains 18,599 recorded AI conference presentations paired with their corresponding paper abstracts. We benchmark the performance of state-of-the-art large models and apply a plan-based framework to better capture the structured nature of abstracts. Both human and automated evaluations confirm that explicit planning enhances summary quality and factual consistency. However, a considerable gap remains between models and human performance, highlighting the challenges of our dataset. This study aims to pave the way for future research on scientific video-to-text summarization.}
 }
 
@@ -72,10 +68,9 @@
   year={2025},
   abbr={ACL},
   arxiv={2412.11333},
-  url={https://arxiv.org/abs/2412.11333},
-  pdf={https://arxiv.org/pdf/2412.11333},
-  abstract={Diffusion models have shown promise in text generation, but often struggle with generating long, coherent, and contextually accurate text. 
-Token-level diffusion doesn't model word-order dependencies explicitly and operates on short, fixed output windows, while passage-level diffusion struggles with learning robust representations for long-form text. To address these challenges, we propose Segment-Level Diffusion (SLD), a framework that enhances diffusion-based text generation through text segmentation, robust representation training with adversarial and contrastive learning, and improved latent-space guidance. By segmenting long-form outputs into multiple latent representations and decoding them with an autoregressive decoder, SLD simplifies diffusion predictions and improves scalability. Experiments on four datasets demonstrate that, when compared to other diffusion and autoregressive baselines SLD achieves competitive or superior fluency, coherence, and contextual compatibility in automatic and human evaluations.}
+  url={https://aclanthology.org/2025.acl-long.210},
+  pdf={https://aclanthology.org/2025.acl-long.210.pdf},
+  abstract={Diffusion models have shown promise in text generation, but often struggle with generating long, coherent, and contextually accurate text. Token-level diffusion doesn't model word-order dependencies explicitly and operates on short, fixed output windows, while passage-level diffusion struggles with learning robust representations for long-form text. To address these challenges, we propose Segment-Level Diffusion (SLD), a framework that enhances diffusion-based text generation through text segmentation, robust representation training with adversarial and contrastive learning, and improved latent-space guidance. By segmenting long-form outputs into multiple latent representations and decoding them with an autoregressive decoder, SLD simplifies diffusion predictions and improves scalability. Experiments on four datasets demonstrate that, when compared to other diffusion and autoregressive baselines SLD achieves competitive or superior fluency, coherence, and contextual compatibility in automatic and human evaluations.}
 }
 
 @inproceedings{romero2024cvqa,
