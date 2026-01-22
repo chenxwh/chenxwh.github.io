@@ -20,8 +20,8 @@ Alongside my industry role, I am a visiting researcher at the **[University of C
 
 My current **Research Interests** include:
 
-* Large-Scale Reasoning Models
-* Post-training and Reinforcement Learning
-* LLM-as-a-Judge and Generative Reward Modeling
+* Post-training and Reinforcement Learning and Large-Scale Reasoning Models
+* [LLM-as-a-Judge](https://arxiv.org/abs/2505.10320) and [Generative Reward Modeling](/assets/pdf/papers/LLM-as-RM.pdf)
+* [AI Co-Scientist](https://arxiv.org/abs/2512.23707) and Co-Improvement 
 
 You can find my contact informtion and  CV **[here](https://chenxwh.github.io/assets/pdf/cv/Chenxi_Whitehouse.pdf)**.
